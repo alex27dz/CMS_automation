@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Beta_2" time="267.007" tests="23" failures="0" errors="0">
+   <testsuite name="Beta_2" tests="23" failures="0" errors="0" time="267.007" skipped="0" timestamp="2022-07-12 23:36:35" hostname="DzhohaAl - ON34C03261455.cihs.ad.gov.on.ca" id="Test Suites/Beta_2">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\DzhohaAl\\Katalon Studio\\CMS_automation\\Reports\\20220712_233553\\Beta_2\\20220712_233604"/>
+         <property name="logFiles" value="C:\\Users\\DzhohaAl\\Katalon Studio\\CMS_automation\\Reports\\20220712_233553\\Beta_2\\20220712_233604\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="DzhohaAl - ON34C03261455.cihs.ad.gov.on.ca"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.3.5.208"/>
+         <property name="browser" value="Chrome 103.0.5060.114"/>
+         <property name="hostAddress" value="192.168.0.18"/>
+         <property name="sessionId" value="b175e5d7a70a6525028b5084ef2eef7b"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/14_Approved Courses Search by Preferred Training Location" time="18.642" classname="Test Cases/14_Approved Courses Search by Preferred Training Location" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:36:35 - [TEST_CASE][PASSED] - Test Cases/14_Approved Courses Search by Preferred Training Location: Test Cases/14_Approved Courses Search by Preferred Training Location
+
+2022-07-12 23:36:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:36:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:36:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:36:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:36:44 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:36:44 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:36:44 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:36:46 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:36:46 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:36:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:36:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:36:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:36:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:36:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:36:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:36:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:36:52 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:36:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:36:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:36:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/15_Approved Courses Search by Listings with Course Fee" time="13.484" classname="Test Cases/15_Approved Courses Search by Listings with Course Fee" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:36:54 - [TEST_CASE][PASSED] - Test Cases/15_Approved Courses Search by Listings with Course Fee: Test Cases/15_Approved Courses Search by Listings with Course Fee
+
+2022-07-12 23:36:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:36:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:36:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:36:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:36:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:36:59 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:36:59 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:02 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:03 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:06 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:37:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/16_Approved Courses Search by Listings with Weekend Classes" time="11.037" classname="Test Cases/16_Approved Courses Search by Listings with Weekend Classes" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:37:07 - [TEST_CASE][PASSED] - Test Cases/16_Approved Courses Search by Listings with Weekend Classes: Test Cases/16_Approved Courses Search by Listings with Weekend Classes
+
+2022-07-12 23:37:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:37:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:37:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:37:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:37:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:37:11 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:37:11 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:13 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:13 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:37:14 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:14 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:15 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:18 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:18 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:37:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/17_Approved Courses Reset Search Filters" time="14.474" classname="Test Cases/17_Approved Courses Reset Search Filters" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:37:19 - [TEST_CASE][PASSED] - Test Cases/17_Approved Courses Reset Search Filters: Test Cases/17_Approved Courses Reset Search Filters
+
+2022-07-12 23:37:20 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:37:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:37:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:37:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:37:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:37:23 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:37:23 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:27 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:37:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:32 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:37:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/18_Generic Page Footer Component" time="13.439" classname="Test Cases/18_Generic Page Footer Component" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:37:33 - [TEST_CASE][PASSED] - Test Cases/18_Generic Page Footer Component: Test Cases/18_Generic Page Footer Component
+
+2022-07-12 23:37:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:37:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:37:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:37:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:37:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:37:37 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:37:37 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:41 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:41 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:45 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:45 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:37:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/19_Generic Feedback Component" time="12.504" classname="Test Cases/19_Generic Feedback Component" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:37:46 - [TEST_CASE][PASSED] - Test Cases/19_Generic Feedback Component: Test Cases/19_Generic Feedback Component
+
+2022-07-12 23:37:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:37:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:37:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:37:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:37:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:37:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:37:50 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:55 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:37:55 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:37:55 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:37:55 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:56 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:37:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:37:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:37:57 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:37:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:37:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/21_Approved Courses Expandable Search Result" time="11.97" classname="Test Cases/21_Approved Courses Expandable Search Result" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:37:59 - [TEST_CASE][PASSED] - Test Cases/21_Approved Courses Expandable Search Result: Test Cases/21_Approved Courses Expandable Search Result
+
+2022-07-12 23:38:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:38:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:38:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:38:02 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:38:02 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:06 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:06 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:10 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:38:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/20_Approved Courses Basic Search Result" time="12.357" classname="Test Cases/20_Approved Courses Basic Search Result" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:38:11 - [TEST_CASE][PASSED] - Test Cases/20_Approved Courses Basic Search Result: Test Cases/20_Approved Courses Basic Search Result
+
+2022-07-12 23:38:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:38:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:38:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:38:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:38:15 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:18 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:18 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:38:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:20 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:22 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:23 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:23 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:38:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/22_Approved Courses Search Results - Display Type" time="11.924" classname="Test Cases/22_Approved Courses Search Results - Display Type" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:38:23 - [TEST_CASE][PASSED] - Test Cases/22_Approved Courses Search Results - Display Type: Test Cases/22_Approved Courses Search Results - Display Type
+
+2022-07-12 23:38:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:38:27 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:38:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:38:27 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:38:27 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:30 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:38:32 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:32 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:33 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:34 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:38:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/24_Training Eligibility Step 1" time="11.379" classname="Test Cases/24_Training Eligibility Step 1" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:38:35 - [TEST_CASE][PASSED] - Test Cases/24_Training Eligibility Step 1: Test Cases/24_Training Eligibility Step 1
+
+2022-07-12 23:38:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:38:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:38:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:38:39 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:38:39 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:42 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:38:43 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:43 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:44 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:45 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:46 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:38:47 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/23_Course Marketplace Page Header" time="11.163" classname="Test Cases/23_Course Marketplace Page Header" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:38:47 - [TEST_CASE][PASSED] - Test Cases/23_Course Marketplace Page Header: Test Cases/23_Course Marketplace Page Header
+
+2022-07-12 23:38:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:38:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:38:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:38:50 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:38:50 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:53 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:38:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:38:54 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:54 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:38:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:38:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:38:56 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:57 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:38:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:38:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/25_Training Eligibility Step 2" time="11.632" classname="Test Cases/25_Training Eligibility Step 2" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:38:58 - [TEST_CASE][PASSED] - Test Cases/25_Training Eligibility Step 2: Test Cases/25_Training Eligibility Step 2
+
+2022-07-12 23:38:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:38:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:38:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:01 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:01 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:03 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:03 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:05 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:05 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:08 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:08 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:08 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:39:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/26_Generic Page Header Component" time="12.185" classname="Test Cases/26_Generic Page Header Component" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:39:09 - [TEST_CASE][PASSED] - Test Cases/26_Generic Page Header Component: Test Cases/26_Generic Page Header Component
+
+2022-07-12 23:39:11 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:39:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:39:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:13 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:13 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:13 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:17 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:18 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:18 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:39:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/27_Safety Prevention Landing Page Tab Control" time="11.212" classname="Test Cases/27_Safety Prevention Landing Page Tab Control" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:39:22 - [TEST_CASE][PASSED] - Test Cases/27_Safety Prevention Landing Page Tab Control: Test Cases/27_Safety Prevention Landing Page Tab Control
+
+2022-07-12 23:39:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:39:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:39:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:25 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:28 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:30 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:39:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/36_Approved Courses Search by Total Seats" time="9.929" classname="Test Cases/36_Approved Courses Search by Total Seats" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:39:33 - [TEST_CASE][PASSED] - Test Cases/36_Approved Courses Search by Total Seats: Test Cases/36_Approved Courses Search by Total Seats
+
+2022-07-12 23:39:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:39:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:39:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:36 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:39 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:39:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/35_Safety Prevention Landing Page Home Tab Sidebar" time="9.711" classname="Test Cases/35_Safety Prevention Landing Page Home Tab Sidebar" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:39:43 - [TEST_CASE][PASSED] - Test Cases/35_Safety Prevention Landing Page Home Tab Sidebar: Test Cases/35_Safety Prevention Landing Page Home Tab Sidebar
+
+2022-07-12 23:39:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:39:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:39:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:46 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:48 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:50 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:39:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:39:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:39:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/34_Safety Prevention Landing Page Home Tab Find a Provider" time="9.298" classname="Test Cases/34_Safety Prevention Landing Page Home Tab Find a Provider" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:39:53 - [TEST_CASE][PASSED] - Test Cases/34_Safety Prevention Landing Page Home Tab Find a Provider: Test Cases/34_Safety Prevention Landing Page Home Tab Find a Provider
+
+2022-07-12 23:39:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:39:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:39:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:39:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:39:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:39:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:39:55 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:57 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:39:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:39:58 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:39:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:39:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/33_Safety Prevention Landing Page Home Tab Tiles" time="9.62" classname="Test Cases/33_Safety Prevention Landing Page Home Tab Tiles" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:02 - [TEST_CASE][PASSED] - Test Cases/33_Safety Prevention Landing Page Home Tab Tiles: Test Cases/33_Safety Prevention Landing Page Home Tab Tiles
+
+2022-07-12 23:40:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:05 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:05 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:07 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:07 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:08 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:08 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:09 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:10 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:11 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/32_Training Provider Tab Providers support to SOSE program Sidebar" time="10.326" classname="Test Cases/32_Training Provider Tab Providers support to SOSE program Sidebar" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:11 - [TEST_CASE][PASSED] - Test Cases/32_Training Provider Tab Providers support to SOSE program Sidebar: Test Cases/32_Training Provider Tab Providers support to SOSE program Sidebar
+
+2022-07-12 23:40:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:15 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:15 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:17 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:17 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:19 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:19 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:21 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/31_Training Provider Tab Are you aware Sidebar" time="11.315" classname="Test Cases/31_Training Provider Tab Are you aware Sidebar" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:22 - [TEST_CASE][PASSED] - Test Cases/31_Training Provider Tab Are you aware Sidebar: Test Cases/31_Training Provider Tab Are you aware Sidebar
+
+2022-07-12 23:40:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:25 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:25 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:27 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:29 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:29 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:31 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:32 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/29_Training Provider Tab Become an approved training provider Section" time="9.796" classname="Test Cases/29_Training Provider Tab Become an approved training provider Section" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:33 - [TEST_CASE][PASSED] - Test Cases/29_Training Provider Tab Become an approved training provider Section: Test Cases/29_Training Provider Tab Become an approved training provider Section
+
+2022-07-12 23:40:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:36 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:36 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:36 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:36 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:39 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:39 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:40 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:41 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:42 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/30_Training Provider Tab Check worker eligibility Sidebar" time="9.075" classname="Test Cases/30_Training Provider Tab Check worker eligibility Sidebar" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:43 - [TEST_CASE][PASSED] - Test Cases/30_Training Provider Tab Check worker eligibility Sidebar: Test Cases/30_Training Provider Tab Check worker eligibility Sidebar
+
+2022-07-12 23:40:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:44 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:46 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:46 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:48 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:48 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:48 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:48 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:49 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:40:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:40:51 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:40:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:40:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/28_Training Provider Tab" time="9.758" classname="Test Cases/28_Training Provider Tab" status="PASSED">
+         <system-out><![CDATA[2022-07-12 23:40:52 - [TEST_CASE][PASSED] - Test Cases/28_Training Provider Tab: Test Cases/28_Training Provider Tab
+
+2022-07-12 23:40:53 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2022-07-12 23:40:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2022-07-12 23:40:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-12 23:40:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2022-07-12 23:40:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+2022-07-12 23:40:55 - [MESSAGE][PASSED] - Current window maximized
+
+2022-07-12 23:40:55 - [TEST_STEP][PASSED] - navigateToUrl("https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"): Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:57 - [MESSAGE][PASSED] - Navigate to 'https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search' successfully
+
+2022-07-12 23:40:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), 0): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-12 23:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is present
+
+2022-07-12 23:40:59 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:59 - [MESSAGE][PASSED] - Object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clickable
+
+2022-07-12 23:40:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_Training Eligibility")): Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_Training Eligibility' is clicked on
+
+2022-07-12 23:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses")): Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:41:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' is clicked on
+
+2022-07-12 23:41:00 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Page_PublicPortal/li_CPO Approved Courses"), "CPO Approved Courses"): Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:41:01 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Page_PublicPortal/li_CPO Approved Courses' are matched.
+
+2022-07-12 23:41:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-12 23:41:02 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-12 23:36:35 - [TEST_SUITE][PASSED] - Beta_2: Test Cases/28_Training Provider Tab]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

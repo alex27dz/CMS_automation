@@ -1,0 +1,13 @@
+{"testCaseName":"Test Cases/01_CPO Approved Courses Tab","testCaseId":"Test Cases/01_CPO Approved Courses Tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/02_Approved Courses Search by Date Range","testCaseId":"Test Cases/02_Approved Courses Search by Date Range","iterationVariableName":""}
+{"testCaseName":"Test Cases/03_Approved Courses Search by Training Type","testCaseId":"Test Cases/03_Approved Courses Search by Training Type","iterationVariableName":""}
+{"testCaseName":"Test Cases/04_Approved Courses Search by Training Program","testCaseId":"Test Cases/04_Approved Courses Search by Training Program","iterationVariableName":""}
+{"testCaseName":"Test Cases/05_Approved Courses Search by Training Provider Name","testCaseId":"Test Cases/05_Approved Courses Search by Training Provider Name","iterationVariableName":""}
+{"testCaseName":"Test Cases/06_Approved Courses Search Results - Sorting","testCaseId":"Test Cases/06_Approved Courses Search Results - Sorting","iterationVariableName":""}
+{"testCaseName":"Test Cases/07_Approved Courses Search by Listings with Course Fee","testCaseId":"Test Cases/07_Approved Courses Search by Listings with Course Fee","iterationVariableName":""}
+{"testCaseName":"Test Cases/08_Approved Courses Search by Listings with Weekend Classes","testCaseId":"Test Cases/08_Approved Courses Search by Listings with Weekend Classes","iterationVariableName":""}
+{"testCaseName":"Test Cases/09_Approved Courses Reset Search Filters","testCaseId":"Test Cases/09_Approved Courses Reset Search Filters","iterationVariableName":""}
+{"testCaseName":"Test Cases/10_Training Eligibility Tab","testCaseId":"Test Cases/10_Training Eligibility Tab","iterationVariableName":""}
+{"testCaseName":"Test Cases/11_Generic Page Header Component","testCaseId":"Test Cases/11_Generic Page Header Component","iterationVariableName":""}
+{"testCaseName":"Test Cases/12_Generic Validation Message Component","testCaseId":"Test Cases/12_Generic Validation Message Component","iterationVariableName":""}
+{"testCaseName":"Test Cases/13_Approved Courses Search by Total Seats","testCaseId":"Test Cases/13_Approved Courses Search by Total Seats","iterationVariableName":""}

@@ -1,0 +1,324 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Beta_5,Chrome 103.0.5060.114,,,2022-07-12 23:36:46,2022-07-12 23:41:54,5m - 7.958s,PASSED
+,,,,,,,
+Test Cases/83_Google Analytics,Chrome 103.0.5060.114,,,2022-07-12 23:36:47,2022-07-12 23:37:07,19.444s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:36:49,2022-07-12 23:36:57,7.694s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:36:57,2022-07-12 23:36:57,0.324s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:36:57,2022-07-12 23:37:00,3.060s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:00,2022-07-12 23:37:02,1.254s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:02,2022-07-12 23:37:03,0.842s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:03,2022-07-12 23:37:03,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:03,2022-07-12 23:37:04,0.576s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:04,2022-07-12 23:37:05,0.794s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:37:05,2022-07-12 23:37:07,2.112s,PASSED
+,,,,,,,
+Test Cases/84_TP Onboarding Preview,Chrome 103.0.5060.114,,,2022-07-12 23:37:07,2022-07-12 23:37:19,11.835s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:37:08,2022-07-12 23:37:10,2.016s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:37:10,2022-07-12 23:37:10,0.159s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:10,2022-07-12 23:37:13,3.143s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:13,2022-07-12 23:37:14,1.378s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:14,2022-07-12 23:37:15,0.459s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:15,2022-07-12 23:37:15,0.598s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:15,2022-07-12 23:37:17,1.451s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:17,2022-07-12 23:37:18,0.659s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:37:18,2022-07-12 23:37:19,0.989s,PASSED
+,,,,,,,
+Test Cases/86_TP Onboarding Submit and Login,Chrome 103.0.5060.114,,,2022-07-12 23:37:19,2022-07-12 23:37:32,13.672s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:37:20,2022-07-12 23:37:22,1.982s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:37:22,2022-07-12 23:37:23,0.325s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:23,2022-07-12 23:37:26,3.505s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:26,2022-07-12 23:37:27,0.929s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:27,2022-07-12 23:37:28,0.789s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:28,2022-07-12 23:37:29,1.167s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:29,2022-07-12 23:37:30,1.156s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:30,2022-07-12 23:37:31,0.924s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:37:31,2022-07-12 23:37:32,1.071s,PASSED
+,,,,,,,
+Test Cases/85_TP Onboarding Preview Next Step Banner,Chrome 103.0.5060.114,,,2022-07-12 23:37:32,2022-07-12 23:37:43,10.535s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:37:33,2022-07-12 23:37:35,1.623s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:37:35,2022-07-12 23:37:35,0.150s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:35,2022-07-12 23:37:38,2.445s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:38,2022-07-12 23:37:39,1.341s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:39,2022-07-12 23:37:40,0.577s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:40,2022-07-12 23:37:40,0.619s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:40,2022-07-12 23:37:41,0.639s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:41,2022-07-12 23:37:42,0.901s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:37:42,2022-07-12 23:37:43,1.049s,PASSED
+,,,,,,,
+Test Cases/87_TP Onboarding Login Page,Chrome 103.0.5060.114,,,2022-07-12 23:37:43,2022-07-12 23:37:54,11.535s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:37:44,2022-07-12 23:37:46,1.849s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:37:46,2022-07-12 23:37:46,0.264s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:46,2022-07-12 23:37:48,2.136s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:48,2022-07-12 23:37:50,2.113s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:50,2022-07-12 23:37:51,0.765s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:51,2022-07-12 23:37:52,0.801s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:37:52,2022-07-12 23:37:53,1.122s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:53,2022-07-12 23:37:53,0.577s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:37:53,2022-07-12 23:37:54,0.807s,PASSED
+,,,,,,,
+Test Cases/88_TP Onboarding Login Page Contact Us Sidebar,Chrome 103.0.5060.114,,,2022-07-12 23:37:54,2022-07-12 23:38:05,10.421s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:37:55,2022-07-12 23:37:57,1.539s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:37:57,2022-07-12 23:37:57,0.166s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:37:57,2022-07-12 23:37:59,2.219s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:37:59,2022-07-12 23:38:00,1.224s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:00,2022-07-12 23:38:01,0.525s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:01,2022-07-12 23:38:02,1.242s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:02,2022-07-12 23:38:03,0.852s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:03,2022-07-12 23:38:04,0.980s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:38:04,2022-07-12 23:38:05,0.895s,PASSED
+,,,,,,,
+Test Cases/89_New Training Program Wizard Step 1 - Page Setup,Chrome 103.0.5060.114,,,2022-07-12 23:38:05,2022-07-12 23:38:16,11.535s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:38:06,2022-07-12 23:38:08,1.965s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:38:08,2022-07-12 23:38:08,0.163s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:08,2022-07-12 23:38:11,2.544s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:38:11,2022-07-12 23:38:12,0.850s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:12,2022-07-12 23:38:12,0.430s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:12,2022-07-12 23:38:13,0.901s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:13,2022-07-12 23:38:14,1.605s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:14,2022-07-12 23:38:15,0.796s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:38:15,2022-07-12 23:38:16,0.985s,PASSED
+,,,,,,,
+Test Cases/90_New Training Program Wizard Fixed Footer,Chrome 103.0.5060.114,,,2022-07-12 23:38:16,2022-07-12 23:38:29,12.489s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:38:17,2022-07-12 23:38:20,2.409s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:38:20,2022-07-12 23:38:20,0.297s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:20,2022-07-12 23:38:23,3.110s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:38:23,2022-07-12 23:38:24,1.032s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:24,2022-07-12 23:38:25,0.496s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:25,2022-07-12 23:38:25,0.690s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:25,2022-07-12 23:38:27,1.541s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:27,2022-07-12 23:38:28,0.793s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:38:28,2022-07-12 23:38:29,0.992s,PASSED
+,,,,,,,
+Test Cases/91_New Training Program Header,Chrome 103.0.5060.114,,,2022-07-12 23:38:29,2022-07-12 23:38:41,12.023s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:38:30,2022-07-12 23:38:32,2.151s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:38:32,2022-07-12 23:38:32,0.246s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:32,2022-07-12 23:38:36,3.362s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:38:36,2022-07-12 23:38:37,1.117s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:37,2022-07-12 23:38:37,0.456s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:37,2022-07-12 23:38:38,1.128s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:38,2022-07-12 23:38:39,1.186s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:39,2022-07-12 23:38:40,0.560s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:38:40,2022-07-12 23:38:41,0.782s,PASSED
+,,,,,,,
+Test Cases/92_New Training Program Fixed Footer,Chrome 103.0.5060.114,,,2022-07-12 23:38:41,2022-07-12 23:38:52,11.665s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:38:42,2022-07-12 23:38:44,2.273s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:38:44,2022-07-12 23:38:44,0.168s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:44,2022-07-12 23:38:47,3.082s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:38:47,2022-07-12 23:38:48,1.006s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:48,2022-07-12 23:38:49,0.539s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:49,2022-07-12 23:38:50,0.882s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:50,2022-07-12 23:38:51,1.356s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:51,2022-07-12 23:38:52,0.582s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:38:52,2022-07-12 23:38:52,0.832s,PASSED
+,,,,,,,
+Test Cases/93_New Training Program Introduction Page,Chrome 103.0.5060.114,,,2022-07-12 23:38:52,2022-07-12 23:39:03,10.989s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:38:53,2022-07-12 23:38:56,2.284s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:38:56,2022-07-12 23:38:56,0.173s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:38:56,2022-07-12 23:38:59,2.930s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:38:59,2022-07-12 23:38:59,0.605s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:38:59,2022-07-12 23:39:00,0.424s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:00,2022-07-12 23:39:01,0.880s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:01,2022-07-12 23:39:02,1.148s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:02,2022-07-12 23:39:03,0.706s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:03,2022-07-12 23:39:03,0.880s,PASSED
+,,,,,,,
+Test Cases/94_New Training Program Information Page,Chrome 103.0.5060.114,,,2022-07-12 23:39:03,2022-07-12 23:39:16,12.280s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:05,2022-07-12 23:39:06,1.877s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:06,2022-07-12 23:39:07,0.166s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:07,2022-07-12 23:39:10,2.953s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:39:10,2022-07-12 23:39:11,1.487s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:11,2022-07-12 23:39:12,0.659s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:12,2022-07-12 23:39:13,0.939s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:13,2022-07-12 23:39:14,1.003s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:14,2022-07-12 23:39:14,0.756s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:14,2022-07-12 23:39:16,1.355s,PASSED
+,,,,,,,
+Test Cases/95_New Training Program Scope section,Chrome 103.0.5060.114,,,2022-07-12 23:39:16,2022-07-12 23:39:27,11.194s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:18,2022-07-12 23:39:20,2.130s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:20,2022-07-12 23:39:20,0.193s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:20,2022-07-12 23:39:23,2.532s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:39:23,2022-07-12 23:39:24,1.177s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:24,2022-07-12 23:39:24,0.419s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:24,2022-07-12 23:39:25,0.869s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:25,2022-07-12 23:39:26,0.680s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:26,2022-07-12 23:39:26,0.547s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:26,2022-07-12 23:39:27,0.761s,PASSED
+,,,,,,,
+Test Cases/96_New Training Program Preparing your Application section,Chrome 103.0.5060.114,,,2022-07-12 23:39:27,2022-07-12 23:39:37,10.306s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:28,2022-07-12 23:39:30,1.519s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:30,2022-07-12 23:39:30,0.143s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:30,2022-07-12 23:39:32,2.585s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:39:32,2022-07-12 23:39:33,1.040s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:33,2022-07-12 23:39:34,0.503s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:34,2022-07-12 23:39:35,0.642s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:35,2022-07-12 23:39:35,0.905s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:35,2022-07-12 23:39:36,0.782s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:36,2022-07-12 23:39:37,1.075s,PASSED
+,,,,,,,
+Test Cases/97_New Training Program Steps to Approve your Application section,Chrome 103.0.5060.114,,,2022-07-12 23:39:37,2022-07-12 23:39:47,9.212s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:38,2022-07-12 23:39:40,1.474s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:40,2022-07-12 23:39:40,0.144s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:40,2022-07-12 23:39:42,2.412s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:39:42,2022-07-12 23:39:43,0.787s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:43,2022-07-12 23:39:44,0.516s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:44,2022-07-12 23:39:44,0.562s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:44,2022-07-12 23:39:45,0.773s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:45,2022-07-12 23:39:46,0.657s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:46,2022-07-12 23:39:47,0.781s,PASSED
+,,,,,,,
+Test Cases/98_New Training Program Additional Information Sidebar,Chrome 103.0.5060.114,,,2022-07-12 23:39:47,2022-07-12 23:39:56,9.798s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:48,2022-07-12 23:39:49,1.438s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:49,2022-07-12 23:39:49,0.159s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:49,2022-07-12 23:39:52,2.532s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:39:52,2022-07-12 23:39:53,1.008s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:53,2022-07-12 23:39:53,0.423s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:53,2022-07-12 23:39:54,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:39:54,2022-07-12 23:39:55,0.866s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:39:55,2022-07-12 23:39:56,0.618s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:39:56,2022-07-12 23:39:56,0.815s,PASSED
+,,,,,,,
+Test Cases/99_New Training Program Important Notice Notice of Authority sections,Chrome 103.0.5060.114,,,2022-07-12 23:39:56,2022-07-12 23:40:06,9.553s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:39:58,2022-07-12 23:39:59,1.759s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:39:59,2022-07-12 23:40:00,0.199s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:00,2022-07-12 23:40:02,2.369s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:02,2022-07-12 23:40:03,0.881s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:03,2022-07-12 23:40:03,0.405s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:03,2022-07-12 23:40:04,0.604s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:04,2022-07-12 23:40:05,0.747s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:05,2022-07-12 23:40:05,0.588s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:05,2022-07-12 23:40:06,0.788s,PASSED
+,,,,,,,
+Test Cases/100_Step 2 Training Provider Attestation Section,Chrome 103.0.5060.114,,,2022-07-12 23:40:06,2022-07-12 23:40:16,10.034s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:07,2022-07-12 23:40:09,1.642s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:09,2022-07-12 23:40:09,0.158s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:09,2022-07-12 23:40:11,2.372s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:11,2022-07-12 23:40:12,1.076s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:12,2022-07-12 23:40:13,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:13,2022-07-12 23:40:13,0.579s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:13,2022-07-12 23:40:14,0.908s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:14,2022-07-12 23:40:15,0.744s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:15,2022-07-12 23:40:16,0.791s,PASSED
+,,,,,,,
+Test Cases/101_Step 2 Training Provider Attestation - Provider Tab,Chrome 103.0.5060.114,,,2022-07-12 23:40:16,2022-07-12 23:40:26,10.345s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:17,2022-07-12 23:40:19,1.662s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:19,2022-07-12 23:40:19,0.147s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:19,2022-07-12 23:40:22,2.752s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:22,2022-07-12 23:40:23,1.175s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:23,2022-07-12 23:40:23,0.473s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:23,2022-07-12 23:40:24,0.569s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:24,2022-07-12 23:40:25,0.842s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:25,2022-07-12 23:40:25,0.641s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:25,2022-07-12 23:40:26,0.879s,PASSED
+,,,,,,,
+Test Cases/102_Step 2 Training Provider Attestation - Provider Tab Sidebar,Chrome 103.0.5060.114,,,2022-07-12 23:40:26,2022-07-12 23:40:36,9.269s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:27,2022-07-12 23:40:29,1.665s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:29,2022-07-12 23:40:29,0.146s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:29,2022-07-12 23:40:31,2.370s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:31,2022-07-12 23:40:33,1.096s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:33,2022-07-12 23:40:33,0.467s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:33,2022-07-12 23:40:34,0.579s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:34,2022-07-12 23:40:34,0.648s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:34,2022-07-12 23:40:35,0.552s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:35,2022-07-12 23:40:36,0.777s,PASSED
+,,,,,,,
+Test Cases/103_Step 2 Training Provider Attestation - Program Tab,Chrome 103.0.5060.114,,,2022-07-12 23:40:36,2022-07-12 23:40:46,9.958s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:37,2022-07-12 23:40:39,1.629s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:39,2022-07-12 23:40:39,0.167s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:39,2022-07-12 23:40:42,2.803s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:42,2022-07-12 23:40:43,1.064s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:43,2022-07-12 23:40:43,0.430s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:43,2022-07-12 23:40:44,0.633s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:44,2022-07-12 23:40:44,0.513s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:44,2022-07-12 23:40:45,0.550s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:45,2022-07-12 23:40:46,0.751s,PASSED
+,,,,,,,
+Test Cases/104_Step 2 Training Provider Attestation - Program Tab Sidebar,Chrome 103.0.5060.114,,,2022-07-12 23:40:46,2022-07-12 23:40:47,0.998s,PASSED
+return null,Chrome 103.0.5060.114,,,2022-07-12 23:40:47,2022-07-12 23:40:47,0.000s,PASSED
+,,,,,,,
+Test Cases/105_Step 3 Training Program Materials Section,Chrome 103.0.5060.114,,,2022-07-12 23:40:47,2022-07-12 23:40:56,9.246s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:48,2022-07-12 23:40:49,1.409s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:49,2022-07-12 23:40:49,0.138s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:49,2022-07-12 23:40:52,2.339s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:40:52,2022-07-12 23:40:52,0.751s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:52,2022-07-12 23:40:53,0.533s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:53,2022-07-12 23:40:54,0.602s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:40:54,2022-07-12 23:40:54,0.595s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:54,2022-07-12 23:40:55,0.762s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:40:55,2022-07-12 23:40:56,0.818s,PASSED
+,,,,,,,
+Test Cases/106_TP Dashboard Main Page,Chrome 103.0.5060.114,,,2022-07-12 23:40:56,2022-07-12 23:41:06,10.048s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:40:57,2022-07-12 23:40:59,1.874s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:40:59,2022-07-12 23:40:59,0.213s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:40:59,2022-07-12 23:41:02,3.063s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:02,2022-07-12 23:41:03,0.811s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:03,2022-07-12 23:41:03,0.458s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:03,2022-07-12 23:41:04,0.597s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:04,2022-07-12 23:41:05,0.688s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:05,2022-07-12 23:41:05,0.579s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:05,2022-07-12 23:41:06,0.757s,PASSED
+,,,,,,,
+Test Cases/107_TP Dashboard Main Page - CPO Approved Programs Sidebar,Chrome 103.0.5060.114,,,2022-07-12 23:41:06,2022-07-12 23:41:14,8.343s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:07,2022-07-12 23:41:08,1.365s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:08,2022-07-12 23:41:08,0.159s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:08,2022-07-12 23:41:10,1.883s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:10,2022-07-12 23:41:11,0.875s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:11,2022-07-12 23:41:12,0.544s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:12,2022-07-12 23:41:12,0.640s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:12,2022-07-12 23:41:13,0.633s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:13,2022-07-12 23:41:13,0.616s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:13,2022-07-12 23:41:14,0.716s,PASSED
+,,,,,,,
+Test Cases/108_TP Dashboard Main Page - Training Programs Table,Chrome 103.0.5060.114,,,2022-07-12 23:41:14,2022-07-12 23:41:22,7.791s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:15,2022-07-12 23:41:16,1.328s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:16,2022-07-12 23:41:17,0.141s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:17,2022-07-12 23:41:18,1.731s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:18,2022-07-12 23:41:19,0.713s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:19,2022-07-12 23:41:20,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:20,2022-07-12 23:41:20,0.555s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:20,2022-07-12 23:41:21,0.616s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:21,2022-07-12 23:41:21,0.571s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:21,2022-07-12 23:41:22,0.713s,PASSED
+,,,,,,,
+Test Cases/109_Step 1 Enter Application Information Section,Chrome 103.0.5060.114,,,2022-07-12 23:41:22,2022-07-12 23:41:30,7.765s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:23,2022-07-12 23:41:24,1.388s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:24,2022-07-12 23:41:25,0.166s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:25,2022-07-12 23:41:26,1.546s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:26,2022-07-12 23:41:27,0.751s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:27,2022-07-12 23:41:27,0.479s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:27,2022-07-12 23:41:28,0.558s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:28,2022-07-12 23:41:29,0.656s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:29,2022-07-12 23:41:29,0.515s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:29,2022-07-12 23:41:30,0.735s,PASSED
+,,,,,,,
+Test Cases/110_Step 1 Applicant Business Information Section,Chrome 103.0.5060.114,,,2022-07-12 23:41:30,2022-07-12 23:41:38,7.883s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:31,2022-07-12 23:41:32,1.484s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:32,2022-07-12 23:41:32,0.154s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:32,2022-07-12 23:41:34,1.752s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:34,2022-07-12 23:41:35,0.686s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:35,2022-07-12 23:41:35,0.448s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:35,2022-07-12 23:41:36,0.522s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:36,2022-07-12 23:41:36,0.618s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:36,2022-07-12 23:41:37,0.574s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:37,2022-07-12 23:41:38,0.715s,PASSED
+,,,,,,,
+Test Cases/111_Step 1 Business Address,Chrome 103.0.5060.114,,,2022-07-12 23:41:38,2022-07-12 23:41:46,7.841s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:39,2022-07-12 23:41:40,1.392s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:40,2022-07-12 23:41:40,0.146s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:40,2022-07-12 23:41:42,1.695s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:42,2022-07-12 23:41:43,0.737s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:43,2022-07-12 23:41:43,0.468s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:43,2022-07-12 23:41:44,0.565s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:44,2022-07-12 23:41:44,0.642s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:44,2022-07-12 23:41:45,0.487s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:45,2022-07-12 23:41:46,0.710s,PASSED
+,,,,,,,
+Test Cases/112_Step 1 Designated Signing Authority Section,Chrome 103.0.5060.114,,,2022-07-12 23:41:46,2022-07-12 23:41:54,8.134s,PASSED
+"openBrowser("""")",Chrome 103.0.5060.114,,,2022-07-12 23:41:47,2022-07-12 23:41:48,1.379s,PASSED
+maximizeWindow(),Chrome 103.0.5060.114,,,2022-07-12 23:41:48,2022-07-12 23:41:48,0.200s,PASSED
+"navigateToUrl(""https://intra.stage.apps.labour.gov.on.ca/public-portal-qa/#/marketplace/course-search"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:48,2022-07-12 23:41:50,1.870s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), 0)",Chrome 103.0.5060.114,,,2022-07-12 23:41:50,2022-07-12 23:41:51,0.750s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:51,2022-07-12 23:41:51,0.455s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_Training Eligibility""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:51,2022-07-12 23:41:52,0.606s,PASSED
+"click(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""))",Chrome 103.0.5060.114,,,2022-07-12 23:41:52,2022-07-12 23:41:52,0.633s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_PublicPortal/li_CPO Approved Courses""), ""CPO Approved Courses"")",Chrome 103.0.5060.114,,,2022-07-12 23:41:52,2022-07-12 23:41:53,0.544s,PASSED
+closeBrowser(),Chrome 103.0.5060.114,,,2022-07-12 23:41:53,2022-07-12 23:41:54,0.726s,PASSED
