@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Training Program All Safety Training Pr_fda766</name>
+   <tag></tag>
+   <elementGuidId>062c5c72-f29d-4858-905e-51f74dad8197</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main-content']/app-homepage/app-tabs/div/div[2]/app-marketplace/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>app-marketplace > div.ontario-row</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>cf4e5a75-a0e1-4dcf-aabb-8826f6863f99</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ontario-row</value>
+      <webElementGuid>eeaa1e3a-48be-4181-b7a9-3b0eb91a892d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Training Program All Safety Training ProgramsJHSC - Part OneJHSC - Part TwoJHSC - RefresherWorking at Heights - FullWorking at Heights - RefresherTraining providerTraining typeAllBlendedDistanceeLearningIn-ClassTraining locationSelect radiusAll25 kms50 kms100 kms From date  To dateTotal seatsShow the listings with course fee onlyWeekend classes onlySearchReset filtersSort by Date: Earliest - LatestDate: Latest - EarliestPrice: Low - HighPrice: High - LowShowing 0 course advertisementsFeedback We would like to hear about your experience and welcome suggestions/feedback to improve the service. </value>
+      <webElementGuid>7adc868b-cb99-48c4-b0f6-9ff264666ad9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-content&quot;)/app-homepage[1]/app-tabs[1]/div[@class=&quot;ontario-tabs&quot;]/div[@class=&quot;ontario-tab-content&quot;]/app-marketplace[1]/div[@class=&quot;ontario-row&quot;]</value>
+      <webElementGuid>4c41c644-2dff-451c-ad43-3aeb8e90e67c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main-content']/app-homepage/app-tabs/div/div[2]/app-marketplace/div</value>
+      <webElementGuid>5cb5ae7f-48d3-421d-8d67-a2d574f52c6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved Training Providers'])[1]/following::div[5]</value>
+      <webElementGuid>41191828-8786-4a5f-9116-1ebab9f74165</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Training Eligibility'])[1]/following::div[5]</value>
+      <webElementGuid>b609382d-8f89-4a96-814e-4fe8cf5ab3c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//app-marketplace/div</value>
+      <webElementGuid>60ebdfed-cb8f-450f-9552-f672d4284cdc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Training Program All Safety Training ProgramsJHSC - Part OneJHSC - Part TwoJHSC - RefresherWorking at Heights - FullWorking at Heights - RefresherTraining providerTraining typeAllBlendedDistanceeLearningIn-ClassTraining locationSelect radiusAll25 kms50 kms100 kms From date  To dateTotal seatsShow the listings with course fee onlyWeekend classes onlySearchReset filtersSort by Date: Earliest - LatestDate: Latest - EarliestPrice: Low - HighPrice: High - LowShowing 0 course advertisementsFeedback We would like to hear about your experience and welcome suggestions/feedback to improve the service. ' or . = 'Training Program All Safety Training ProgramsJHSC - Part OneJHSC - Part TwoJHSC - RefresherWorking at Heights - FullWorking at Heights - RefresherTraining providerTraining typeAllBlendedDistanceeLearningIn-ClassTraining locationSelect radiusAll25 kms50 kms100 kms From date  To dateTotal seatsShow the listings with course fee onlyWeekend classes onlySearchReset filtersSort by Date: Earliest - LatestDate: Latest - EarliestPrice: Low - HighPrice: High - LowShowing 0 course advertisementsFeedback We would like to hear about your experience and welcome suggestions/feedback to improve the service. ')]</value>
+      <webElementGuid>38d27c3b-2931-4510-ad6d-ade9a3bf2583</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
